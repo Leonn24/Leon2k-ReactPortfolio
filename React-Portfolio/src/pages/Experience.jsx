@@ -21,6 +21,17 @@ function Experience() {
           </h3>
           <p>Highschool Diploma</p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2023 - 2024"
+          iconStyle={{ background: "#13a16a", colo: "fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Rutgers University Bootcamp, New Brunswick, New Jersey
+          </h3>
+          <p>Degree Pending</p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
