@@ -85,20 +85,30 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
-  /* .toggleButton {
-      display: none;
-    } */
-  
-  .hiddenLinks {
-    display: none;
+@media only screen and (max-width: 768px) {
+  .navbar a {
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+  .navbar {
+    height: auto;
   }
 
-  #open {
-    height: 100px;
+  .navbar a {
+    font-size: 16px;
+    margin: 5px;
   }
 
-  #open .links {
-    flex-direction: row;
+  .toggleButton {
+    display: flex;
+  }
+
+  .toggleButton button {
+    font-size: 30px;
+    margin-right: 10px;
   }
 }

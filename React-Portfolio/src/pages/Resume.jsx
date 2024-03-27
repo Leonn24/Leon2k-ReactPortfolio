@@ -5,8 +5,9 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from '@mui/icons-material/Work'
 
-function Experience() {
+function Resume() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#13a16a">
@@ -31,10 +32,20 @@ function Experience() {
             Rutgers University Bootcamp, New Brunswick, New Jersey
           </h3>
           <p>Degree Pending</p>
+        </VerticalTimelineElement>  <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2013 - Current"
+          iconStyle={{ background: "#13a16a", colo: "fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Handyman, Manhattan, New York
+          </h3>
+          <p>Job</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
 }
 
-export default Experience;
+export default Resume;

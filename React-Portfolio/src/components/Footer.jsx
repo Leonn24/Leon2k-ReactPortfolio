@@ -8,9 +8,15 @@ function Footer() {
     return (
         <div className="footer">
             <div className="socialMedia">
+            <a href="https://github.com/Leonn24">
                 <GitHubIcon />
+                </a>
+                <a href="https://www.instagram.com/aversonn">
                 <InstagramIcon />
+                </a>
+                <a href="https://www.linkedin.com/in/LeonHoti">
                 <LinkedInIcon />
+                </a>
             </div>
             <p>&copy; 2024 Leon Hoti</p>
         </div>
