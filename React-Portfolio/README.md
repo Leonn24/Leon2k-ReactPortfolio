@@ -51,3 +51,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ![Home](/React-Portfolio/src/assets/images/homepage.png)
 ![Project](/React-Portfolio/src/assets/images/projectpage.png)
 ![Resume](/React-Portfolio/src/assets/images/resumepage.png)
+
+## Links
+
+[Netlify](https://66042b313b6bd916087da35f--wondrous-mandazi-d7431f.netlify.app)
+
+[GitHub](https://github.com/Leonn24/Leon2k-ReactPortfolio)
